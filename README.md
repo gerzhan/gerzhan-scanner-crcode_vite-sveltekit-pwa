@@ -47,9 +47,11 @@ $node --version > .nvmrc
 # запуск в режиме разработки
 $npm run dev
 # сборка проекта для публикации
-npm run build
+$npm run build
 # запуск собранного проекта
-npm run preview
+$npm run preview
+# форматирование всего кода
+$npm run format
 ```
 
 ## Первоисточник
