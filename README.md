@@ -1,38 +1,58 @@
-# create-svelte
+# Gerzhan | Scanner QRCode
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+[github.com/gerzhan/gerzhan-scanner-crcode_vite-sveltekit-pwa](https://github.com/gerzhan/gerzhan-scanner-crcode_vite-sveltekit-pwa)
 
-## Creating a project
+## Порядок создания
 
-If you're seeing this, you've probably already done this step. Congrats!
+### Генерация репозитория
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
+$node --version
+18.15.0
+$npm create vite@latest
+✔ Project name: … gerzhan-scanner-crcode_vite-sveltekit-pwa
+✔ Select a framework: › Svelte
+✔ Select a variant: › SvelteKit ↗
+Need to install the following packages:
+  create-svelte@5.0.5
+Ok to proceed? (y) y
 
-# create a new project in my-app
-npm create svelte@latest my-app
+create-svelte version 5.0.5
+
+┌  Welcome to SvelteKit!
+│
+◇  Which Svelte app template?
+│  Skeleton project
+│
+◇  Add type checking with TypeScript?
+│  Yes, using TypeScript syntax
+│
+◇  Select additional options (use arrow keys/space bar)
+│  Add ESLint for code linting, Add Prettier for code formatting, Add Playwright for browser testing, Add Vitest for unit testing
+│
+└  Your project is ready!
 ```
 
-## Developing
+> NOTE: репозиторий сгененрирован с использованием [`create-svelte v5.0.5`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- фиксация информации о версии NodeJs
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+$node --version > .nvmrc
 ```
 
-## Building
-
-To create a production version of your app:
+## Консольные команды запуска
 
 ```bash
+# запуск в режиме разработки
+$npm run dev
+# сборка проекта для публикации
 npm run build
+# запуск собранного проекта
+npm run preview
 ```
 
-You can preview the production build with `npm run preview`.
+## Первоисточник
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- SvelteKit: PWA and deployment on Netlify. [video](https://www.youtube.com/watch?v=JSWPWJtGGtQ)
+-
