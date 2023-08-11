@@ -6,4 +6,7 @@ export default defineConfig({
   test: {
     include: ['src/**/*.{test,spec}.{js,ts}'],
   },
+  define: {
+    'process.env.NODE_ENV': '"production"',
+  },
 });
